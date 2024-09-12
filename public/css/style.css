@@ -1,0 +1,72 @@
+body{
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+}
+.navcss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: blue 2px solid;
+    background-color: yellow;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    border: 3px solid blue;
+    display: inline;
+    background-color: lightblue;
+    font-size: 25px;
+    border-radius: 100px;
+    margin-top: 40px;
+
+
+}
+p{
+    color: blue;
+    background-color: yellow;
+    border: 5px solid lightblue;
+}
+h1{
+    color: blue;
+    background-color: lightblue;
+    border: 5px solid blue;
+    border-radius: 25px;
+}
+nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+footer{
+    text-align: center;
+    justify-content: space-between;
+}
+main{
+    text-align: center;
+}
+label{
+    color: black;
+    background-color: lightblue;
+    border: 1px solid blue;
+
+}
+
+
+.navcss{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes example {
+  0%   {background-color: white;}
+  20%  {background-color: lightblue;}
+  40%  {background-color: blue;}
+  60% {background-color: lightyellow;}
+  80% {background-color: yellow;}
+  100% {background-color: white;}
+}
