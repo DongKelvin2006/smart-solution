@@ -14,18 +14,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('home', function () {
-    return view('home');
-});
-
-Route::get('about', function () {
-    return view('about');
-});
-
-Route::get('contacts', function () {
-    return view('contacts');
-});
+Route::get('home' , [PagesController::class, "index"]);
+Route::get('welcome' , [PagesController::class, "index2"]);
+Route::get('about' , [PagesController::class, "index3"]);
+Route::get('contacts' , [PagesController::class, "index4"]);
